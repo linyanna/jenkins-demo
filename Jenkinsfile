@@ -3,7 +3,7 @@ pipeline {
 
   tools {nodejs "node"}
   environment {
-  imageName = 'dockingpoints1w3/jenkins_demo'
+  imageName = 'dockingpoints1w3/jenkins_image'
   dockerCredentialsName='dockerhub-creds'
   dockerImage = ''
   }
